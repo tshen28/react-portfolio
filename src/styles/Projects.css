@@ -1,7 +1,28 @@
-.img {
-    border: 5px solid;
-    margin-bottom: 1%;
-    width: 100%;
-    height: auto;
-    opacity: 0.5;
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.projectCard {
+    margin: 15px;
+}
+
+h1 {
+    padding: 20px
+}
+
+.card-body {
+    color: white;
+    background-color: #a3b18a;
+}
+
+a {
+    margin-right: 10px;
+}
+
+@media screen and (max-width: 768px) {
+    .container .cardImg {
+        width: 100%;
+    }
 }
