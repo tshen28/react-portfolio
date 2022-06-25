@@ -6,7 +6,7 @@ const About = () => {
         <section>
             <h1>About Me</h1>
             <p>My name is Taylor Shen and I am an aspiring Software developer. I recently graduated from the University of Washington Full-Stack Coding Bootcamp.</p>
-            <p>I have experience with various languages such as React, Javascript and Python.</p>
+            <p>I have experience with coding languages such as React, Javascript, HTML and Python.</p>
         </section>
     )
 }

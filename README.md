@@ -9,3 +9,5 @@ My portfolio created through React. Currently updating and working on layout des
 ## Links
 
 https://github.com/tshen28/react-portfolio 
+
+https://tshen28.github.io/react-portfolio/
