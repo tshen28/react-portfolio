@@ -1,7 +1,7 @@
 # react-portfolio
 
 ## Description
-My portfolio created through React. Currently updating and working on layout design.
+My portfolio created through React. Currently updating and working on layout design. Update: working on mobile responsive project cards.
 
 ## Table of Contents:
     1. [Links](##Links)
