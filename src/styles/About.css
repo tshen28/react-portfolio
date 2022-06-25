@@ -1,3 +1,15 @@
 section {
     background-color: #a5a58d;
+    padding: 50px;
+}
+
+h1 {
+    font-size: xx-large;
+    margin-bottom: 20px;
+    text-align: baseline;
+}
+
+p {
+    font-size: 18px;
+    text-align: baseline;
 }

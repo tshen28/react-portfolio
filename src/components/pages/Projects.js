@@ -1,12 +1,13 @@
 import React from 'react'
-import '../../styles/Projects'
+import '../../styles/Projects.css'
+
 
 export default function Projects () {
     return (
         <section>
             <h1>My Projects</h1>
             <div className="relative-img">
-                <img src='./images/IYKYK.png' alt='IYKYK screenshot'/>
+                <img src='../../../public/images/IYKYK.png' alt='IYKYK screenshot'/>
                 <div className="text-overlay project-name">
                     <h2>IYKYK</h2>
                     <h3>Project 3</h3>

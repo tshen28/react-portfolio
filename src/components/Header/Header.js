@@ -1,5 +1,6 @@
 import React from 'react';
 import './Header.css';
+import Pdf from '../../../src/TaylorShen_Resume.pdf'
 
 export default function Header({ currentPage, handlePageChange }) {
     return (
@@ -25,7 +26,7 @@ export default function Header({ currentPage, handlePageChange }) {
                     > Contact </a>
                 </li>
                 <li className="nav-item">
-                    <a href="https://github.com/tshen28/" target="_blank" className="nav-link"> Resume </a>
+                    <a href={Pdf} target="_blank" className="nav-link"> Resume </a>
                 </li>
             </ul>
         </header>
