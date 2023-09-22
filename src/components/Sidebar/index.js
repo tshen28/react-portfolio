@@ -1,15 +1,15 @@
-import { Link, NavLink } from 'react-router-dom'
-import './index.scss'
-
-import Resume from '/Users/tshen/code/tshen-react-portfolio/src/assets/images/Taylor Shen Resume.pdf'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faEnvelope, faFilePdf, faFolder, faHome, faUser, } from '@fortawesome/free-solid-svg-icons'
-import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
+import { Link, NavLink } from 'react-router-dom';
+import './index.scss';
+import Logo from '../../assets/images/ts.png';
+import Resume from '/Users/tshen/code/tshen-react-portfolio/src/assets/images/Taylor Shen Resume.pdf';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faEnvelope, faFilePdf, faFolder, faHome, faUser, } from '@fortawesome/free-solid-svg-icons';
+import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
 const Sidebar = () => (
     <div className='nav-bar'>
         <Link className='logo' to='/'>
-            {/* <img src={} alt='logo'/> */}
+            <img src={Logo} alt='logo'/>
         </Link>
         <nav>
             <NavLink exact='true' activeclassname='active' to='/'>

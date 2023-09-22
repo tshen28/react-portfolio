@@ -7,6 +7,7 @@
     top: 0;
     z-index: 3;
     min-height: 500px;
+    transition: all 0.3s ease-in;
 
     .logo {
         display: block;
@@ -14,9 +15,18 @@
 
         img {
             display: block;
-            margin: auto;
-            width: 24px;
-            height: 50px;
+            margin: 8px 0px;
+            width: 72px;
+            height: 80px;
+            transition: all 0.3s ease-in;
+        }
+    }
+
+    &:hover {
+        width: 100px;
+
+        img {
+            margin: 8px 16px;
         }
     }
 }
@@ -27,12 +37,12 @@ nav {
     position: absolute;
     height: 210px;
     margin: 0;
-    top: 20%;
+    top: 24%;
     width: 100%;
     
     a {
         font-size: 28px;
-        color: white;
+        color: #E1F639;
         display: block;
         line-height: 51px;
         height: 55px;
@@ -44,7 +54,7 @@ nav {
         }
 
         &:hover {
-            color: azure;
+            color: #E1F639;
 
             svg {
                 opacity: 0;
@@ -57,7 +67,7 @@ nav {
 
         &:after {
             content: '';
-            font-size: 9px;
+            font-size: 11px;
             font-weight: bold;
             letter-spacing: 2px;
             position: absolute;
@@ -96,7 +106,7 @@ nav {
 
     a.active {
         svg {
-            color: azure;
+            color: #E1F639;
         }
     }
 
@@ -120,11 +130,43 @@ ul {
             line-height: 16px;
 
             &:hover svg {
-                color: azure;
-            }
+                color: #E1F639;
+            }    
+        } 
 
+        a.resume {
+            &:hover {
+                color: #E1F639;
+    
+                svg {
+                    opacity: 0;
+                }
+    
+                &:after {
+                    opacity: 1;
+                }
+            }
+    
+            &:after {
+                content: '';
+                font-size: 11px;
+                font-weight: bold;
+                letter-spacing: 2px;
+                position: absolute;
+                bottom: 16px;
+                display: block;
+                width: 100%;
+                text-align: center;
+                opacity: 0;
+                transition: all 0.3s ease-out;
+            }
+    
+            &:first-child {
+                &::after {
+                    content: 'RESUME';
+                }
+            }
         }
-        
     }
 
 }
