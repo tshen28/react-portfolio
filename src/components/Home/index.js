@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import Loader from 'react-loaders';
 import Animation from '../Animation';
 import { useEffect, useState } from 'react';
+import Logo from '../../assets/images/ts.png';
 
 const Home = () => {
     const [letterClass, setLetterClass] = useState('text-animate');
@@ -30,6 +31,9 @@ const Home = () => {
                 </h1>
                 <h2>Frontend / Backend Developer</h2>
                 <Link to='/contact' className='flat-button'>CONTACT ME</Link>
+            </div>
+            <div className="home-logo">
+                <img src={Logo} alt='logo'/>
             </div>
         </div>
         <Loader type='line-scale-pulse-out-rapid'/>

@@ -42,6 +42,7 @@ nav {
     
     a {
         font-size: 28px;
+        font-family: 'Nunito Sans', sans-serif;
         color: #E1F639;
         display: block;
         line-height: 51px;
@@ -112,7 +113,7 @@ nav {
 
 }
 
-ul {
+ul.icon-list {
     position: absolute;
     bottom: 20px;
     width: 100%;
@@ -163,7 +164,7 @@ ul {
     
             &:first-child {
                 &::after {
-                    content: 'RESUME';
+                    content: 'RÉSUMÉ';
                 }
             }
         }

@@ -1,9 +1,10 @@
 @import 'animate.css';
 @import '~loaders.css/src/animations/line-scale-pulse-out-rapid.scss';
-@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz@6..12&display=swap');
 
 input, textarea {
-  font-family: 'Caveat';
+  font-family: 'Rubik', sans-serif;
 }
 
 .loader-active {
