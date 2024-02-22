@@ -36,7 +36,7 @@ const Home = () => {
                 <img src={Logo} alt='logo'/>
             </div>
         </div>
-        <Loader type='line-scale-pulse-out-rapid'/>
+        <Loader type='ball-scale-ripple'/>
         </div>
     );
 }

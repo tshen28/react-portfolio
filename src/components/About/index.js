@@ -23,12 +23,9 @@ const About = () => {
 
                     Beyond writing clean code, I prioritize collaboration and communication. I firmly believe that the best software is developed through teamwork, where diverse perspectives converge to create exceptional products. My experience working in cross-functional teams has not only honed my technical skills but also enriched my ability to effectively communicate complex ideas. </p>
 
-                    <p>I am committed to continuous learning, staying abreast of the latest industry trends and technologies. My dedication to growth reflects in my approach—constantly seeking innovative solutions and refining my craft.
-
-                    Feel free to explore my portfolio and get in touch to discuss how we can collaborate on building innovative solutions.</p>
                 </div>
             </div>
-            <Loader type='line-scale-pulse-out-rapid' />
+            <Loader type='ball-scale-ripple' />
         </>
     );
 }

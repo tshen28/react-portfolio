@@ -58,12 +58,17 @@
     .flat-button {
         color: #E1F639;
         background: 0 0;
-        font: 11px;
+        font: 12px;
         letter-spacing: 3px;
         text-decoration: none;
         padding: 8px 10px;
         border: 1px solid #E1F639;
         float: right;
         border-radius: 4px;
+
+        &:hover {
+            color: black;
+            background-color: #E1F639;
+        }
     }   
 }

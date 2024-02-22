@@ -1,0 +1,33 @@
+.project_page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Nunito Sans', sans-serif !important;
+}
+
+.project_card {
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 350px;
+    animation: fadeIn 1.1s 2.2s backwards;
+    background-color: #212121 !important;
+    color: azure !important;
+    border-radius: 8px !important;
+
+    &:hover {
+        transform: scale(1.1);
+    }
+}
+
+.project_btn  {
+    color: #E1F639 !important;
+    border-color: #E1F639 !important;
+    font-size: 9px !important;
+
+    &:hover {
+        background-color: #E1F639 !important;
+        color: #212121 !important;
+    }
+}

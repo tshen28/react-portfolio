@@ -19,8 +19,9 @@
     position: absolute;
     bottom: 0;
     left: 120px;
-    font-size: 16px;
+    font-size: 14px;
     font-family: 'Rubik', sans-serif;
+    animation: fadeIn 1.2s backwards;
 }
 
 .bottom-tags {
@@ -53,18 +54,17 @@
     h1 {
         font-size: 53px;
         font-family: 'Nunito Sans', sans-serif;
-        font-weight: 400;
-        margin-top: 0;
+        font-weight: 600;
         position: relative;
         left: -10px;
         margin-bottom: 40px;
-        color: azure;
+        color: #E1F639;
 
         &::before {
             content: '<h1>';
             color: azure;
             font-family: 'Rubik', sans-serif;
-            font-size: 16px;
+            font-size: 14px;
             position: absolute;
             margin-top: -10px;
             left: -10px;
@@ -78,7 +78,7 @@
             font-family: 'Rubik', sans-serif;
             position: absolute;
             margin-left: 20px;
-            font-size: 16px;
+            font-size: 14px;
             line-height: 18px;
             left: -30px;
             bottom: -20px;
@@ -88,8 +88,8 @@
 
     p {
         color: azure;
-        font-size: 13px;
-        font-family: sans-serif;
+        font-size: 16px;
+        font-family: 'Nunito Sans', sans-serif;
         font-weight: 300;
         min-width: fit-content;
         animation: pulse 1s;
