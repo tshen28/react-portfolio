@@ -24,8 +24,7 @@ const Projects = () => {
                         Project 1
                     </Typography>
                     <Typography variant="body2" color="azure" fontSize="11px">
-                        Lizards are a widespread group of squamate reptiles, with over 6,000
-                        species, ranging across all continents except Antarctica
+                        Project description
                     </Typography>
                 </CardContent>
                 <CardActions>
@@ -44,8 +43,7 @@ const Projects = () => {
                         Project 2
                     </Typography>
                     <Typography variant="body2" color="azure" fontSize="11px">
-                        Lizards are a widespread group of squamate reptiles, with over 6,000
-                        species, ranging across all continents except Antarctica
+                        Project description
                     </Typography>
                 </CardContent>
                 <CardActions>
@@ -64,8 +62,7 @@ const Projects = () => {
                         Project 3
                     </Typography>
                     <Typography variant="body2" color="azure" fontSize="11px">
-                        Lizards are a widespread group of squamate reptiles, with over 6,000
-                        species, ranging across all continents except Antarctica
+                        Project description
                     </Typography>
                 </CardContent>
                 <CardActions>
