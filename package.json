@@ -1,6 +1,7 @@
 {
   "name": "tshen-react-portfolio",
   "version": "0.1.0",
+  "homepage": "https://tshen28.github.io/react-portfolio",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^4.1.0",
@@ -51,6 +52,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "homepage": "https://tshen28.github.io/react-portfolio"
+  }
 }
