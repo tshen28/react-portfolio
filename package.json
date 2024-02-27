@@ -1,5 +1,6 @@
 {
   "name": "tshen-react-portfolio",
+  "homepage": "https://tshen28.github.io/react-portfolio/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
